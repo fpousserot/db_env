@@ -1,0 +1,37 @@
+name: databricks-ml
+channels:
+  - pytorch
+  - defaults
+dependencies:
+  - dask
+  - torchtext
+  - pip:
+    - Unidecode
+    - beautifulsoup4
+    - bokeh
+    - cltk
+    - collections-extended
+    - dash
+    - dash-bootstrap-components
+    - fastai
+    - flair
+    - gensim
+    - jupyter-dash
+    - language_detector
+    - pandas-bokeh
+    - pandas-profiling
+    - plotly
+    - pyldavis
+    - sentence-transformers
+    - spacy
+    - spacy-langdetect
+    - spacy-lefff
+    - spark-nlp==2.5.5
+    - stopwords
+    - swifter
+    - symspellpy
+    - textblob
+    - umap-learn
+    - wordcloud
+    - xlrd
+    - xlwt
